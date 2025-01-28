@@ -9,6 +9,6 @@ current_time = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 file_path = os.path.join('version-control/output', '/', 'version.md')
 
 # Write the current time to version.md
-with open(file_pathh, 'w') as f:
+with open(file_path, 'w') as f:
     f.write(current_time)
 # date and time written to version.md
